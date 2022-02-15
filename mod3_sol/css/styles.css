@@ -1,1 +1,125 @@
+* {
+  box-sizing: border-box;
+}
 
+#menu {
+  margin-bottom: 15px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  font-family: Courier New, sans-serif;
+}
+
+#header-nav {
+  background-color: #a1a1a1;
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  color: white;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list li a {
+  color: white;
+  text-align: center;
+}
+#nav-list li a:hover {
+  background-color: lightgray;
+  text-decoration: underline;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+.cont {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #a1a1a1;
+  width: 90%;
+  min-height: 200px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  overflow
+}
+.text {
+  font-family: Courier New;
+  color: white;
+  padding: 10px 35px;
+  text-align: justify;
+  margin: 0;
+}
+.title {
+  position: relative;
+  width: 100%;
+  color: black;
+  font-size: 1.50em;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.link {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  margin: 0px;
+  padding: 10px 35px;
+}
+.link a {
+  color: white;
+}
+.link a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+@media (min-width: 1200px) {
+  .navbar-brand {
+    padding-top: 30px;
+    height: 100px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand {
+    padding-top: 30px;
+    height: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    padding-top: 20px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    font-size: 5vw;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #collapsable-nav li { /* Collapsed nav menu text */
+    font-size: 1.3em;
+  }
+}
